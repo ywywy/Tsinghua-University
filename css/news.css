@@ -1,0 +1,53 @@
+.header {
+	width: 1519.2px;
+	height: 161.2px;
+	padding-top: 25px;
+	background:#542185 url(images/bg_01.jpg) no-repeat center center;
+}
+.mainwrap {
+	width: 990px;
+	height: 75.2px;
+	margin: auto;
+}
+.navwrap {
+	width: 1519.2px;
+	height: 1px;
+	border-top: 1px solid #9450df;
+}
+.topwraper {
+	width: 990px;
+	height: 75.2px;
+	background: red;
+}
+.logo {
+	width: 268px;
+	height: 75.2px;
+	background: url(images/logo.png) no-repeat;
+}
+.search {
+	width: 360.44px;
+	height: 51px;
+	float: left;
+	margin-left: 310px;
+	padding-top: 15px; 
+}
+.search input {
+	border: 0;
+	height: 36px;
+	float: left;
+	line-height: 34px;
+	width: 290px;
+	padding: 0 10px;
+}
+.search .a {
+	margin-top: -36px;
+	width: 30px;
+    height: 36px;
+	background: #f4930a;
+	margin-left: 310px;
+	padding: 0 10px;
+	float: left;
+}
+.ulick {
+	
+}
