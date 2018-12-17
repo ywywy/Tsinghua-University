@@ -1,8 +1,10 @@
 .header {
+	margin-top: -20px;
+	margin-left: -10px;
 	width: 1519.2px;
 	height: 161.2px;
 	padding-top: 25px;
-	background:#542185 url(images/bg_01.jpg) no-repeat center center;
+	background:/*#542185*/ url(../images/bg_01.jpg) no-repeat center center;
 }
 .mainwrap {
 	width: 990px;
@@ -10,6 +12,7 @@
 	margin: auto;
 }
 .navwrap {
+	margin-top: 10px;
 	width: 1519.2px;
 	height: 1px;
 	border-top: 1px solid #9450df;
@@ -17,12 +20,12 @@
 .topwraper {
 	width: 990px;
 	height: 75.2px;
-	background: red;
+	/*background: red;*/
 }
 .logo {
 	width: 268px;
 	height: 75.2px;
-	background: url(images/logo.png) no-repeat;
+	background: url(../images/logo.png) no-repeat;
 }
 .search {
 	width: 360.44px;
@@ -48,6 +51,62 @@
 	padding: 0 10px;
 	float: left;
 }
-.ulick {
-	
+.ulink {
+	margin-top: -90px;
+	width: 248.69px;
+	height: 30px;
+	margin-right: 26px;
+	float: right;
+	padding-top: 18px;
+	/*background: blue;*/
+}
+.clearfix {
+	width: 208.69px;
+	height: 30px;
+	/*background: red;*/
+}
+.socialnet1 {
+	margin-left: -40px;
+    width: 26px;
+    height: 26px;
+    float: left;
+    padding: 2px;
+    background: #ededed;   
+}
+.socialnet2 { 
+	margin-left: -5px;
+    width: 26px;
+    height: 26px;
+    float: left;
+    padding: 2px;
+    background: #ededed;   
+}
+.socialnet3 {
+	margin-left: 5px;
+    width: 26px;
+    height: 26px;
+    float: left;
+    padding: 2px;
+    background: #ededed;   
+}
+.mr {
+	margin-left: 5px;
+	width: 82.69px;
+	height: 25.6px;
+	float: left;
+	padding: 2px;
+	background: #f4930a;
+	color: #542185;
+	text-align: center;
+	font-size: 13px;
+	line-height: 2em;
+}
+.thuhome {
+    margin-top: -40px;
+	margin-left: 220px;
+	width: 72px;
+	height: 25.6px;
+	float: left;
+	color: white;
+	font-size: 12px;
 }
