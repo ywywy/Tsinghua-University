@@ -6,18 +6,14 @@
 	padding-top: 25px;
 	background:/*#542185*/ url(../images/bg_01.jpg) no-repeat center center;
 }
-.mainwrap {
+.mainwrap1 {
 	width: 990px;
 	height: 75.2px;
 	margin: auto;
 }
-.navwrap {
-	margin-top: 10px;
-	width: 1519.2px;
-	height: 1px;
-	border-top: 1px solid #9450df;
-}
 .topwraper {
+	margin-top: 10px;
+	margin-left: 10px;
 	width: 990px;
 	height: 75.2px;
 	/*background: red;*/
@@ -66,20 +62,26 @@
 	/*background: red;*/
 }
 .socialnet1 {
-	margin-left: -40px;
+	margin-left: -50px;
     width: 26px;
     height: 26px;
     float: left;
     padding: 2px;
     background: #ededed;   
 }
+.socialnet1:hover {
+	background: #f4930a;
+}
 .socialnet2 { 
-	margin-left: -5px;
+	margin-left: -15px;
     width: 26px;
     height: 26px;
     float: left;
     padding: 2px;
     background: #ededed;   
+}
+.socialnet2:hover {
+	background: #f4930a;
 }
 .socialnet3 {
 	margin-left: 5px;
@@ -88,6 +90,9 @@
     float: left;
     padding: 2px;
     background: #ededed;   
+}
+.socialnet3:hover {
+	background: #f4930a;
 }
 .mr {
 	margin-left: 5px;
@@ -101,12 +106,162 @@
 	font-size: 13px;
 	line-height: 2em;
 }
+.mr:hover {
+	background: #fff;
+} 
 .thuhome {
     margin-top: -40px;
-	margin-left: 220px;
+	margin-left: 205px;
 	width: 72px;
 	height: 25.6px;
 	float: left;
 	color: white;
 	font-size: 12px;
+}
+.thuhome:hover {
+	color: #f4930a;
+}
+.navwrap {
+	width: 1519.2px;
+	height: 1px;
+	border-top: 1px solid #9450df;
+}
+.mainwrap2 {
+    width: 990px;
+    margin: auto;
+}
+#nav {
+	width: 990px;
+}
+.mainwrap2 li .current{
+	float: left;
+	font-size: 15px;
+	display: block;
+	border-bottom: 3px solid #f4930a;
+}
+.mainwrap2 li {
+	float: left;
+	font-size: 15px;
+	display: block;
+}
+.mainwrap2 li a {
+	color: #fff;	
+	padding: 0 12px;
+	line-height: 60px;
+	text-decoration: none;
+}
+#nav li a:hover {
+	color: #f4930a;
+}
+.list {
+	margin-top: 3px;
+	display: none;
+	position: absolute;
+	z-index: 100;
+	width: 150px;
+	padding: 5px 0;
+	margin-left: -35px;
+	height: auto;
+	box-shadow: 0px 0px 5px #666;
+}
+.list li {
+	float: none;
+	display: block;
+	border: none;
+	background: none;
+	height: auto;
+	padding: 0;
+}
+.list li p {
+	width: auto;
+	font-size: 14px;
+	line-height: 24px;
+	display: block;
+	background: #fff;
+	height: auto;
+	float: none;
+	border: none;
+	text-align: center;
+	color: #2F124A;
+}
+.item:hover .list {
+	display: block;
+	background: #fff; 
+}
+.content {
+	margin-top: -10px;
+	margin-left: -10px;
+	width: 1519.2px;
+	height: 2709px;
+	background: #f4f6f6 url(../images/bg_02.jpg) center top no-repeat;
+}
+.topcontent {
+	width: 1519.2px;
+	height: 705px;
+	padding: 40px 0 35px 0;
+}
+.colum1 {
+	margin-left: 265px;
+	width: 650px;
+	height: 630px;
+	float: left;
+	background: #fff;
+	position: relative;
+}
+.slideTxtBox {
+	width: 650px;
+	height: 615.4px;
+}
+.timelist {
+	width: 486px;
+	height: 70px;
+	position: absolute;
+	left: 0;
+	z-index: 2;
+}
+.timelist li {
+	width: 80px;
+	height: 70px;
+	color: #fff;
+	float: left;
+	font-weight: bold;
+	display: block;
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	z-index: 0;
+	padding-top: 0;
+	margin-right: 41px;
+	line-height: 55px;
+	margin-left: -40px;
+}
+.timelist li .active {
+	width: 80px;
+	height: 70px;
+	background: #542b70;
+}
+.timelist li:hover {
+	opacity: 0.8;
+}
+.timelist li i {
+	position: absolute;
+    z-index: -1;
+    background: #ffa800;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.timelist li span {
+	display: block;
+	font-size: 12px;
+	margin-top: -10px;
+	position: relative;
+	line-height: 12px;
+	font-weight: normal;
+}
+.bottomcontent {
+	width: 1519.2px;
+	height: 2004px;
+	padding: 1px 0 40px 0;
 }
