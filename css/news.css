@@ -235,10 +235,11 @@
 	line-height: 55px;
 	margin-left: -40px;
 }
-.timelist li .active {
-	width: 80px;
-	height: 70px;
-	background: #542b70;
+.t1 .active {
+/*	width: 80px;
+	height: 70px;*/
+	background: #fff;
+	color: #542b70;
 }
 .timelist li:hover {
 	opacity: 0.8;
@@ -368,7 +369,6 @@ img {
 /*右边表单切换部分*/
 .colum2 {
 	width: 310px;
-	height: 630px;
 	float: right;
 	margin-right: 265px; 
 	background: #fff;
@@ -410,6 +410,67 @@ img {
 	color: #fff;
 	background: #685479;
 	text-align: center;
+}
+.bd {
+	width: 310px;
+	height: 1032.6px;
+	/*background: blue;*/
+}
+.nlist {
+	width: 308px;
+	height: 973.4px;
+	background: #fff;
+	border: 1px solid #fff;
+	border-top: 0;
+	z-index: 1;
+	padding-left: 0;
+    padding-top: 15px;
+    margin: 0;
+}
+.nlist li {
+	width: 260px;
+	height: 68.4px;
+	border-bottom: 1px solid #eaeaea;
+	margin: 0 24px 15px 24px;
+	padding: 0px 0px 16px 0px; 
+	list-style-type: none;
+}
+figure {
+	width: 260px;
+	height: 68.4px;
+	margin: 0;
+}
+.time {
+	color: #999;
+	font-size: 12px;
+}
+figcaption {
+	width: 260px;
+	height: 49.2px;
+}
+h3 {    
+	width: 260px;
+	height: 27.6px;
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: normal;
+	margin: 0;
+	padding-top: 6px;
+}
+h3 a {    
+	color: #444;
+	text-decoration: none;
+}
+h3 a:hover {
+	color: #ff7800;
+}
+.more {
+	margin-left: 10px;
+	border: 0;
+	padding: 0;
+	font-size: 12px;
+	text-decoration: none;
+	color: #333;
 }
 /*视频速递部分*/
 .bottomcontent {
