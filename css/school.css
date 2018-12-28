@@ -1,86 +1,139 @@
 /*初始化*/
-body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, q, ul, li, form, table, tr, th ,img ,i{
-    border: 0px;
-    padding: 0px;
-    font-size: 100%;
-    margin: 0px;
-    /*font-family: inherit;*/
-    -webkit-font-smoothing: subpixel-antialiased;
-    font-weight: normal;
-    list-style-type: none;
+
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+q,
+ul,
+li,
+form,
+table,
+tr,
+th,
+img,
+i {
+	border: 0px;
+	padding: 0px;
+	font-size: 100%;
+	margin: 0px;
+	/*font-family: inherit;*/
+	-webkit-font-smoothing: subpixel-antialiased;
+	font-weight: normal;
+	list-style-type: none;
 }
-article,footer,header,nav,section {
-    display: block;
+
+article,
+footer,
+header,
+nav,
+section {
+	display: block;
 }
+
 body {
-    color: #444;
-    line-height: 20px;
-    font-size: 12px;
-    font-family: "Lucida Sans Unicode","Lucida Grande", Tahoma,Arial, Helvetica, sans-serif;
+	color: #444;
+	line-height: 20px;
+	font-size: 12px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
 }
+
+
 /*头部--------------------------------------------------------------------------------------------------*/
-.header{/*头部背景*/
+
+.header {
+	/*头部背景*/
 	background: url(../images/bg.jpg) repeat-x top;
 }
-.header-a{/*头部横条*/
+
+.header-a {
+	/*头部横条*/
 	width: 1000px;
 	margin: 0 auto;
 	border-top: 7px solid #5c307d;
 }
-.header-b{/*section位置大小*/
+
+.header-b {
+	/*section位置大小*/
 	width: 1000px;
 	margin: 0 auto;
 	height: 102px;
 }
-.header-logo{/*清华logo位置大小*/
+
+.header-logo {
+	/*清华logo位置大小*/
 	width: 194px;
 	height: 60px;
 	float: left;
 	margin-top: 20px;
 }
-.header-c{/*搜索框+英文位置*/
+
+.header-c {
+	/*搜索框+英文位置*/
 	float: right;
 	width: 200px;
 	height: 80px;
 }
-.header-d{/*搜索框上英文*/
+
+.header-d {
+	/*搜索框上英文*/
 	float: right;
 	height: 18px;
 	padding: 16px 0 10px 0;
-    text-align: right;
-    color: #4d1379;
+	text-align: right;
+	color: #4d1379;
 }
-.header-e{/*搜索框+图标*/
+
+.header-e {
+	/*搜索框+图标*/
 	float: right;
 }
-.header-f{/*搜索框-输入框*/
+
+.header-f {
+	/*搜索框-输入框*/
 	height: 18px;
-    width: 140px;
-    border: 1px solid #b1b1b1;
-    padding: 5px;
-    float: left;
-    border-right: 0;
-    font-family: "Lucida Sans Unicode","Lucida Grande", Tahoma,Arial, Helvetica, sans-serif;
-    background-color: #FFFFFF;
-    font-size: 12px;
-    outline: none;
+	width: 140px;
+	border: 1px solid #b1b1b1;
+	padding: 5px;
+	float: left;
+	border-right: 0;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+	font-size: 12px;
+	outline: none;
 }
-.header-g img{/*搜索图标*/
+
+.header-g img {
+	/*搜索图标*/
 	height: 30px;
 }
-.header-nav{/*section二级菜单*/
+
+.header-nav {
+	/*section二级菜单*/
 	border-top: 1px solid #dedede;
 	font-family: "\5FAE\8F6F\96C5\9ED1";
 	margin: 0 auto;
 	width: 1000px;
 	height: 53px;
 }
-.header-ul{/*二级菜单 ul*/
+
+.header-ul {
+	/*二级菜单 ul*/
 	margin: 0 auto;
 	margin-top: 5px;
 	font-size: 15px;
 }
-.header-ul li{/*二级菜单 li*/
+
+.header-ul li {
+	/*二级菜单 li*/
 	float: left;
 	height: 32px;
 	padding-left: 13px;
@@ -88,15 +141,21 @@ body {
 	padding-top: 13px;
 	text-align: center;
 }
-.header-ul li:hover{/*二级菜单 li鼠标移上样式*/
+
+.header-ul li:hover {
+	/*二级菜单 li鼠标移上样式*/
 	cursor: pointer;
 	background: #5c307d;
 	color: white;
 }
-.header-li{/*二级菜单 可下拉li*/
+
+.header-li {
+	/*二级菜单 可下拉li*/
 	position: relative;
 }
-.ul{/*二级菜单 下拉菜单*/
+
+.ul {
+	/*二级菜单 下拉菜单*/
 	display: none;
 	position: absolute;
 	margin-top: 10px;
@@ -106,320 +165,478 @@ body {
 	background: #5c307d;
 	z-index: 2;
 }
+
+
 /*.header-li:hover .ul{
 	display: block;
 }*/
-.ul1{/*二级菜单 下拉菜单-走进清华*/
+
+.ul1 {
+	/*二级菜单 下拉菜单-走进清华*/
 	margin-left: -88px;
 }
-.ul li{/*二级菜单 下拉菜单li*/
+
+.ul li {
+	/*二级菜单 下拉菜单li*/
 	width: 150px;
 	height: 30px;
 	text-align: left;
 	background: #5c307d;
 }
-.ul li:hover{/*二级菜单 下拉菜单li鼠标移上样式*/
+
+.ul li:hover {
+	/*二级菜单 下拉菜单li鼠标移上样式*/
 	background: #3d1c55;
 }
+
+
 /*第二部分-----------------------------------------------------------------------------------------------------------*/
-.article-a{/*列表+轮播图*/
+
+.article-a {
+	/*列表+轮播图*/
 	width: 1000px;
 	height: 940px;
 	margin: 0 auto;
 	margin-top: -5px;
 }
-.article-table{/*列表*/
+
+.article-table {
+	/*列表*/
 	float: left;
 	width: 200px;
 }
-.article-nav{/*列表-走进清华(紫色框)*/
+
+.article-nav {
+	/*列表-走进清华(紫色框)*/
 	border-left: 12px solid #5c307d;
-    position: relative;
-    top: -34px;
-    left: -12px;
-    width: 100%;
+	position: relative;
+	top: -34px;
+	left: -12px;
+	width: 100%;
 }
-.article-h3{/*列表-走进清华  样式*/
+
+.article-h3 {
+	/*列表-走进清华  样式*/
 	background: #5c307d;
-    color: #fff;
-    font-size: 22px;
-    line-height: 68px;
-    padding: 0 22px;
+	color: #fff;
+	font-size: 22px;
+	line-height: 68px;
+	padding: 0 22px;
 }
-.article-ul{/*列表  下拉菜单*/
+
+.article-ul {
+	/*列表  下拉菜单*/
 	font-family: "\5FAE\8F6F\96C5\9ED1";
 	margin-top: 20px;
 }
-.article-ul li{/*列表  下拉菜单li  样式*/
+
+.article-ul li {
+	/*列表  下拉菜单li  样式*/
 	color: #22132d;
-    display: block;
-    border-bottom: 1px solid #ddd;
-    font-size: 15px;
-    line-height: 22px;
-    position: relative;
+	display: block;
+	border-bottom: 1px solid #ddd;
+	font-size: 15px;
+	line-height: 22px;
+	position: relative;
 }
-.article-xiaa{/*列表  下拉菜单li-a  样式*/
-    display: block;
-    padding: 1em 0 1em 22px;
-    margin-right: 28px;
+
+.article-xiaa {
+	/*列表  下拉菜单li-a  样式*/
+	display: block;
+	padding: 1em 0 1em 22px;
+	margin-right: 28px;
 }
-.article-show{/*列表  下拉菜单  下拉项*/
+
+.article-show {
+	/*列表  下拉菜单  下拉项*/
 	padding-left: 22px;
 	cursor: pointer;
 	width: 180px;
 }
-.article-showclick{/*列表  下拉菜单  下拉项-下拉后样式*/
+
+.article-showclick {
+	/*列表  下拉菜单  下拉项-下拉后样式*/
 	cursor: pointer;
 	border-left: 4px solid #ff9600;
 	left: -4px;
 	width: 180px;
 }
-.article-show a:hover{/*列表  下拉菜单  下拉项-鼠标移上样式*/
+
+.article-show a:hover {
+	/*列表  下拉菜单  下拉项-鼠标移上样式*/
 	color: #4F608C;
 }
-.topborder{/*列表  下拉菜单-上边框*/
+
+.topborder {
+	/*列表  下拉菜单-上边框*/
 	border-top: 1px solid #ddd;
 }
-.article-i{/*列表  下拉菜单  下拉项（+）*/
+
+.article-i {
+	/*列表  下拉菜单  下拉项（+）*/
 	position: absolute;
-    font-size: 19px;
-    font-weight: 1000;
-    color: #5c307d;
-    line-height: 50px;
-    padding-left: 7px;
-    border-left: 1px solid #ddd;
-    cursor: pointer;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 18px;
-    height: 52px;
-    font-family: "黑体";
-    font-style: normal;
-    text-align: center;
+	font-size: 19px;
+	font-weight: 1000;
+	color: #5c307d;
+	line-height: 50px;
+	padding-left: 7px;
+	border-left: 1px solid #ddd;
+	cursor: pointer;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 18px;
+	height: 52px;
+	font-family: "黑体";
+	font-style: normal;
+	text-align: center;
 }
-.article-i:hover{/*列表  下拉菜单  下拉项（+） 鼠标移上样式*/
-	background: rgb(240,240,240);
+
+.article-i:hover {
+	/*列表  下拉菜单  下拉项（+） 鼠标移上样式*/
+	background: rgb(240, 240, 240);
 }
-.article-ii{/*列表  下拉菜单  收回项（-）*/
+
+.article-ii {
+	/*列表  下拉菜单  收回项（-）*/
 	position: absolute;
-    font-size: 25px;
-    font-weight: 1000;
-    color: #5c307d;
-    line-height: 50px;
-    padding-left: 7px;
-    border-left: 1px solid #ddd;
-    cursor: pointer;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 18px;
-    height: 52px;
-    font-family: Arial;
-    background: rgb(247,247,247);
-    font-style: normal;
-    text-align: center;
+	font-size: 25px;
+	font-weight: 1000;
+	color: #5c307d;
+	line-height: 50px;
+	padding-left: 7px;
+	border-left: 1px solid #ddd;
+	cursor: pointer;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 18px;
+	height: 52px;
+	font-family: Arial;
+	background: rgb(247, 247, 247);
+	font-style: normal;
+	text-align: center;
 }
-.article-xiaul{/*列表  下拉菜单  二级列表样式*/
-    font-family: "Lucida Sans Unicode","Lucida Grande", Tahoma,Arial, Helvetica, sans-serif;
-    margin-left: -20px;
-    line-height: 15px;
-    border-top: 1px solid #ddd;
-    color: #22132d;
-    border: 0;
-    margin-bottom: 0;
-    position: static;
-    margin-right: 0;
+
+.article-xiaul {
+	/*列表  下拉菜单  二级列表样式*/
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	margin-left: -20px;
+	line-height: 15px;
+	border-top: 1px solid #ddd;
+	color: #22132d;
+	border: 0;
+	margin-bottom: 0;
+	position: static;
+	margin-right: 0;
 }
-.article-xiaul li{/*列表  下拉菜单  二级列表li*/
+
+.article-xiaul li {
+	/*列表  下拉菜单  二级列表li*/
 	text-align: left;
 	font-size: 12px;
-    padding: 11px 5px 11px 34px;
-    background: rgb(247,247,247);
+	padding: 11px 5px 11px 34px;
+	background: rgb(247, 247, 247);
 }
-.article-xiaul li:hover{/*列表  下拉菜单  二级列表li鼠标移上样式*/
-	background: rgb(240,240,240);
+
+.article-xiaul li:hover {
+	/*列表  下拉菜单  二级列表li鼠标移上样式*/
+	background: rgb(240, 240, 240);
 }
-.article-picture{/*导航栏+轮播图+介绍 链接*/
+
+.article-picture {
+	/*导航栏+轮播图+介绍 链接*/
 	float: right;
 	width: 770px;
 }
-.article-lan{/*导航栏*/
+
+.article-lan {
+	/*导航栏*/
 	padding-top: 20px;
 	border-bottom: 1px solid #ddd;
 }
-.article-lan a{/*导航栏  文字*/
+
+.article-lan a {
+	/*导航栏  文字*/
 	color: #999;
-    font-size: 12px;
-    font-family: sans-serif;
-    cursor: pointer;
+	font-size: 12px;
+	font-family: sans-serif;
+	cursor: pointer;
 }
-.article-lan a:hover{/*导航栏  文字鼠标移上样式*/
+
+.article-lan a:hover {
+	/*导航栏  文字鼠标移上样式*/
 	color: #22132d;
 }
-.article-lan h1{/*导航栏  标题文字*/
+
+.article-lan h1 {
+	/*导航栏  标题文字*/
 	font-size: 28px;
-    color: #5c307d;
-    font-family: "\5FAE\8F6F\96C5\9ED1";
-    line-height: 1em;
-    padding: 0.7em 0 0.7em;
+	color: #5c307d;
+	font-family: "\5FAE\8F6F\96C5\9ED1";
+	line-height: 1em;
+	padding: 0.7em 0 0.7em;
 }
-.article-tu{/*轮播图+文字*/
+
+.article-tu {
+	/*轮播图+文字*/
 	position: relative;
-    margin-bottom: 40px;
-    margin-top: 30px;
+	margin-bottom: 40px;
+	margin-top: 30px;
 }
-.article-list{/*轮播图-文字div*/
+
+.article-list {
+	/*轮播图-文字div*/
 	width: 220px;
-    height: 225px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-    opacity: 0.8;
-    background: #fff;
+	height: 225px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	opacity: 0.8;
+	background: #fff;
 }
-.article-list p{/*轮播图-文字*/
+
+.article-list p {
+	/*轮播图-文字*/
 	padding: 35px;
 }
-.article-dot{/*轮播图-文字-圆点行位置*/
+
+.article-dot {
+	/*轮播图-文字-圆点行位置*/
 	position: absolute;
-    bottom: 20px;
-    width: 100%;
+	bottom: 20px;
+	width: 50%;
+	padding-left: 40%;
 }
-.article-dot div{/*轮播图-文字-圆点行*/
-	float: right;
-    left: -50%;
-    position: relative;
-}
-.article-timg{/*轮播图-文字-圆点*/
-	position: relative;
-    left: 50%;
-}
-.article-list li{/*轮播图-文字-圆点-单个*/
+
+.article-list li {
+	/*轮播图-文字-圆点-单个*/
 	float: left;
-    width: 8px;
-    height: 8px;
-    margin: 4px;
-    cursor: pointer;
-    border-radius: 4px;
-}
-.article-current{/*轮播图-文字-圆点-单个颜色（图片未显示时）*/
+	width: 8px;
+	height: 8px;
+	margin: 4px;
+	cursor: pointer;
+	border-radius: 4px;
 	background: #5c307d;
 }
-.article-current1{/*轮播图-文字-圆点-单个颜色（图片显示时）*/
+
+#article-current1 {
+	/*轮播图-文字-圆点-单个颜色（图片显示时）*/
+	float: left;
+	width: 8px;
+	height: 8px;
+	margin: 4px;
+	cursor: pointer;
+	border-radius: 4px;
 	background: #FF9600;
 }
-.article-lunbo{/*轮播图*/
+
+.article-lunbo {
+	/*轮播图*/
 	overflow: hidden;
-    position: relative;
-    height: 320px;
+	position: relative;
+	height: 320px;
 }
-@keyframes lunbo{/*轮播图动画*/
-	0%,25%{
+
+.aaa {
+	/*轮播图片  动画*/
+	width: 4000px;
+	left: 0;
+	position: absolute;
+	animation: aaa linear 9s infinite;
+}
+
+.aaa img {
+	/*轮播图片宽度*/
+	width: 770px;
+}
+
+.aaa li {
+	/*轮播图片排列*/
+	float: left;
+}
+
+@keyframes aaa {/*动画*/
+	0%,
+	25% {
 		left: 0;
-		
 	}
-	35%,60%{
+	35%,
+	60% {
 		left: -770px;
-		
 	}
-	70%,90%{
+	70%,
+	90% {
 		left: -1540px;
-		
 	}
-	100%{
+	100% {
 		left: -2310px;
 	}
 }
-.article-pic img{/*轮播图-图片*/
-	width: 770px;
-	height: 320px;
-}
-.article-pic li{/*轮播图-位置*/
-	float: left;
-}
-.article-pic{/*轮播*/
-	width: 3080px;
-	left: 0;
-	position: absolute;
-	animation: lunbo 5s infinite;
-}
 
-.article-san{/*列表  校园地图+校园景观section*/
+.article-san {
+	/*列表  校园地图+校园景观section*/
 	margin-right: 300px;
 	width: 550px;
 }
-.article-liangtu{/*列表  校园地图+校园景观  位置*/
+
+.article-liangtu {
+	/*列表  校园地图+校园景观  位置*/
 	width: 50%;
 	float: left;
 	margin-bottom: 30px;
 }
-.article-liangtu-ul{/*列表  校园地图+校园景观  大小背景色*/
+
+.article-liangtu-ul {
+	/*列表  校园地图+校园景观  大小背景色*/
 	background: #f6f6f6;
 	width: 245px;
 	height: 250px;
 	margin-left: 15px;
 }
-.article-liangtu-ul h3{/*列表  校园地图+校园景观  h3*/
+
+.article-liangtu-ul h3 {
+	/*列表  校园地图+校园景观  h3*/
 	margin-left: 30px;
 	color: #22132D;
 	font-size: 16px;
 	padding: 1em 0 0.5em 0;
 }
-.article-liangtu-ul h3:hover{/*列表  校园地图+校园景观  h3鼠标移上*/
+
+.article-liangtu-ul h3:hover {
+	/*列表  校园地图+校园景观  h3鼠标移上*/
 	color: #4F608C;
 }
-.article-liangtu-ul p{/*列表  校园地图+校园景观  p*/
+
+.article-liangtu-ul p {
+	/*列表  校园地图+校园景观  p*/
 	color: #777;
 	padding: 0 30px 0 30px;
 	font-size: 12px;
 	line-height: 20px;
 }
-.article-lianjie{/*相关链接*/
+
+.article-lianjie {
+	/*相关链接*/
 	width: 190px;
 	float: right;
 }
-.article-lianjie h4{/*相关链接  h4*/
+
+.article-lianjie h4 {
+	/*相关链接  h4*/
 	font-size: 16px;
 	color: #555;
 	background: #f4f4f4;
 	padding: 1.5em 0 0.75em 0.7em;
 }
-.article-lianjie ul{/*相关链接  ul*/
+
+.article-lianjie ul {
+	/*相关链接  ul*/
 	margin-top: 10px;
 	padding-left: 12px;
 }
-.article-lianjie li{/*相关链接  li*/
+
+.article-lianjie li {
+	/*相关链接  li*/
 	padding: 4px 0;
 	color: #777;
 }
-.article-lianjie li:hover{/*相关链接  li鼠标移上*/
+
+.article-lianjie li:hover {
+	/*相关链接  li鼠标移上*/
 	color: #5C307D;
 }
-.article-lianjie i{/*相关链接  i(">"符号)*/
+
+.article-lianjie i {
+	/*相关链接  i(">"符号)*/
 	float: right;
 	content: '\e816';
 	font-family: "thuicon";
-    font-style: normal;
-    font-weight: normal;
-    speak: none;
-    display: inline-block;
-    text-decoration: inherit;
-    width: 1em;
-    margin-right: .2em;
-    text-align: center;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1em;
-    margin-left: .2em;
+	font-style: normal;
+	font-weight: normal;
+	speak: none;
+	display: inline-block;
+	text-decoration: inherit;
+	width: 1em;
+	margin-right: .2em;
+	text-align: center;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1em;
+	margin-left: .2em;
 }
+
+
 /*底部-----------------------------------------------------------------------------------------------------------*/
-.footer-one{
+
+.footer-one {/*底部   灰色部分*/
 	width: 100%;
+	height: 174px;
 	background: #e0e0e0;
 	padding: 40px 0;
 }
+
+.footer-nav {/*底部   nav*/
+	width: 1000px;
+	margin: auto;
+	min-width: 320px;
+	cursor: pointer;
+}
+.footer-nav li{/*底部   nav-li*/
+	float: left;
+	padding-left: 28px;
+	padding-right: 28px;
+}
+.footer-nav h4{/*底部   nav-h4*/
+	padding-bottom: 8px;
+}
+.footer-nav h4 a{/*底部   nav-h4-a*/
+	font-size: 15px;
+    color: #22132d;
+}
+.footer-nav a{/*底部   nav-a*/
+	color: #585858;
+    display: block;
+    line-height: 24px;
+    text-align: center;
+}
+.footer-nav a:hover{/*底部   nav-a鼠标移上*/
+	color: #4F608C;
+}
+.footer-two{/*底部   深色部分*/
+	color: #a5a2a7;
+    padding: 20px 0;
+    line-height: 22px;
+    width: 1000px;
+    margin: auto;
+    min-width: 320px;
+}
+.footer-san{/*底部  电话+信箱+地址*/
+	float: left;
+}
+.footer-san span{/*底部  电话+信箱+地址-间距*/
+	padding-right: 24px;
+}
+.footer-si{/*底部  京公网安备号*/
+	float: right;
+}
+.footer-wu{/*底部   版权*/
+	color: #6f6a74;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
