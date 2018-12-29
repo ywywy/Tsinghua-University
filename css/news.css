@@ -235,14 +235,11 @@
 	line-height: 55px;
 	margin-left: -40px;
 }
-.t1 .active {
-/*	width: 80px;
-	height: 70px;*/
-	background: #fff;
-	color: #542b70;
-}
 .timelist li:hover {
 	opacity: 0.8;
+}
+.timelist li .t1 {
+	background: #fff;
 }
 .timelist li i {
 	position: absolute;
@@ -304,10 +301,53 @@
 .forwnxt a:hover {
 	color: #f4930a;
 }
-img {
+/*轮播开始*/
+#bannerimg {
 	width: 650px;
 	height: 415.4px;
+    position: relative;
+    overflow: hidden;           
 }
+.pic {
+    width: 3900px;
+    height: 415.4px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    animation-name: focusmap;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+}
+@keyframes focusmap {
+    0%,16.7%{
+        left: 0;
+    }
+    21.7%,33.4%{
+        left: -650px;
+    }
+    38.4%,50.1%{
+        left: -1300px;
+    }
+    55.1%,66.8%{
+        left: -1950px;
+    }
+    71.8%,83.5%{
+        left: -2600px;
+    }
+    88.5%,100%{
+        left: -3250px;
+    }
+}
+.pic li{
+    float: left;
+    background: #5dd94e;
+}
+.pic li img{
+    width: 650px;
+    height: 415.4px;
+}
+/*轮播结束*/
 .figurewrap1 {
 	margin-left: 40px;
 	margin-top: 20px;
@@ -724,4 +764,35 @@ footer {
 	background: #989895;
 	padding: 35px 0;
 	margin: 0;
+}
+.footbox {
+	width: 990px;
+	height: 64.6px;
+	margin: auto;
+}
+.thulogo {
+	float: left;
+	width: 63px;
+	height: 63.2px;
+	background: url(../images/thulogo.png) no-repeat;
+}
+.foottext {
+	height: 64.6px;
+	float: left;
+	color: #d4d4d4;
+	padding-left: 40px;
+}
+.foottext span {
+	width: 488.263px;
+	height: 19.2px;
+	padding: 2px 0 5px 0;
+}
+.foottext a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+}
+.foottext p {
+	font-size: 12px;
+	line-height: 6px;
 }
