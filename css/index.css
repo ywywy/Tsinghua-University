@@ -35,7 +35,6 @@ th {
 .header-one {
 	position: relative;
 }
-
 .header-topline {
 	background: #6510ad;
 	background: linear-gradient(90deg, #6510ad 60%, #104fad);
@@ -161,7 +160,9 @@ th {
 	padding-left: 25px;
 	cursor: pointer;
 }
-
+.header-wu a:hover{
+	color: #D18E59;
+}
 .header-liu {
 	border-left: 1px solid rgba(255, 255, 255, 0.3);
 	margin-left: 15px;
@@ -189,9 +190,10 @@ th {
 	text-align: center;
 	font-size: 100px;
 	font-weight: bold;
-	color: beige;
+	color: gainsboro;
 	line-height: 350px;
 	position: absolute;
+	z-index: 2;
 }
 
 .header-next {
@@ -206,6 +208,7 @@ th {
 	color: gainsboro;
 	line-height: 350px;
 	position: absolute;
+	z-index: 2;
 }
 
 #nimg{
@@ -213,12 +216,64 @@ th {
 	width: 100%;
 	overflow: hidden;
 }
-
-
-
-
-
-
+.header-qi{
+	width: 100%;
+	margin-left: 20px;
+	margin-top: -200px;
+}
+.header-qi li{
+    float: left;
+    position: relative;
+    background: #fff;
+    border-left: 1px solid #5e068c;
+}
+.header-ba{
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    background: #fff;
+    height: 45.83%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.header-ba img{
+	bottom: 10px;
+	padding: 20px;
+	position: absolute;
+	cursor: pointer;
+}
+.header-jiu{
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    height: 172px;
+}
+.header-jiu img{
+	bottom: 10px;
+	padding: 20px;
+	position: absolute;
+	cursor: pointer;
+}
+.header-ba:hover p{
+	color: #D18E59;
+}
+.header-jiu:hover p{
+	color: #D18E59;
+}
+.header-qi span{
+	bottom: 38px;
+	left: 50px;
+	font-size: 12px;
+	color: #9f8027;
+	position: absolute;
+	cursor: pointer;
+}
+.header-qi p{
+	font-size: 14px;
+	padding: 20px;
+	cursor: pointer;
+}
 
 
 
